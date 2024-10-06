@@ -1,4 +1,4 @@
-# CMPE585-Spring24
+# Technical Challenge: Real-Time Soft Body Dynamics
 Soft body dynamics require complex calculations to simulate the physical properties and interac-
 tions of deformable objects. These calculations are computationally intensive and can significantly
 impact the performance of a game, particularly in terms of CPU and memory usage. As the number
