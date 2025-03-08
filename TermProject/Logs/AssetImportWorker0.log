@@ -1,0 +1,646 @@
+Unity Editor version:    2021.3.35f1 (157b46ce122a)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.6.7 (Build 22G720)
+Darwin version:          22.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.35f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/yilmazunal/Desktop/SWE585_Projects/TermProject
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54221
+Successfully changed project path to: /Users/yilmazunal/Desktop/SWE585_Projects/TermProject
+/Users/yilmazunal/Desktop/SWE585_Projects/TermProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140704331761600] Host "[IP] 192.168.0.126 [Port] 0 [Flags] 2 [Guid] 410208529 [EditorId] 410208529 [Version] 1048832 [Id] OSXEditor(0,Yilmazs-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [140704331761600] Host "[IP] 192.168.0.126 [Port] 0 [Flags] 2 [Guid] 410208529 [EditorId] 410208529 [Version] 1048832 [Id] OSXEditor(0,Yilmazs-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 209.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.35f1 (157b46ce122a)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.35f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/yilmazunal/Desktop/SWE585_Projects/TermProject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 640 (low power)
+Metal devices available: 1
+0: Intel(R) Iris(TM) Plus Graphics 640 (low power)
+Using device Intel(R) Iris(TM) Plus Graphics 640 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 640
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.35f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.35f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.35f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56123
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.35f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.003638 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 88.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.899 seconds
+Domain Reload Profiling:
+	ReloadAssembly (900ms)
+		BeginReloadAssembly (185ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (595ms)
+			LoadAssemblies (187ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (154ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (339ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (88ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (183ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009811 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.691 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1692ms)
+		BeginReloadAssembly (160ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1390ms)
+			LoadAssemblies (149ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (387ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (732ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (595ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.35f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3570 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 191 unused Assets / (47.9 KB). Loaded Objects now: 3877.
+Memory consumption went from 130.6 MB to 130.6 MB.
+Total: 4.729185 ms (FindLiveObjects: 0.314996 ms CreateObjectMapping: 0.216846 ms MarkObjects: 4.006049 ms  DeleteObjects: 0.190354 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 28009.256362 seconds.
+  path: Assets/BulletUnity/Examples/Prefabs
+  artifactKey: Guid(a6f30685d7d68fb4f85424457642c115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BulletUnity/Examples/Prefabs using Guid(a6f30685d7d68fb4f85424457642c115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f19bfe839b1c609a502ddb89d8de1e0') in 0.007886 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 17.552320 seconds.
+  path: Assets/BulletUnity/Examples/SceneMenu
+  artifactKey: Guid(2a25fd2f9acd4cb4ab4bba7bb2a8de77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BulletUnity/Examples/SceneMenu using Guid(2a25fd2f9acd4cb4ab4bba7bb2a8de77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af8ede842d8dac8c4650e113ae9b8a7') in 0.001110 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.346869 seconds.
+  path: Assets/BulletUnity/Examples/Scenes/ExampleMenu.unity
+  artifactKey: Guid(dd6c72c8f72ad81458903ed8743c21a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BulletUnity/Examples/Scenes/ExampleMenu.unity using Guid(dd6c72c8f72ad81458903ed8743c21a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd6c5aba8e8f67322f6593dc994d8067') in 0.002699 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 19.937503 seconds.
+  path: Assets/BulletUnity/Examples/Scenes/SoftBody/HighPolySkinnedMeshDrivenByLowPolySoftBody.unity
+  artifactKey: Guid(a2671a4be119f1d45bde0b76d689b52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BulletUnity/Examples/Scenes/SoftBody/HighPolySkinnedMeshDrivenByLowPolySoftBody.unity using Guid(a2671a4be119f1d45bde0b76d689b52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb1940973455f39ec42e0286a9241c57') in 0.001138 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.806000 seconds.
+  path: Assets/BulletUnity/Examples/Scenes/SoftBody/ExtendedFlycam.cs
+  artifactKey: Guid(13dff6ca1e84b7f45aea27d51d1366f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BulletUnity/Examples/Scenes/SoftBody/ExtendedFlycam.cs using Guid(13dff6ca1e84b7f45aea27d51d1366f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a32b3c0ddbb8bfe6dfc0e8c7fbf5716') in 0.290393 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.298707 seconds.
+  path: Assets/BulletUnity/Examples/Scenes/SoftBody/RopeSticksArray.cs
+  artifactKey: Guid(847b85166f6ee444c917a18711179370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BulletUnity/Examples/Scenes/SoftBody/RopeSticksArray.cs using Guid(847b85166f6ee444c917a18711179370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3787826adfc851c261cc6603b848ec67') in 0.002002 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.469964 seconds.
+  path: Assets/BulletUnity/Examples/Scenes/SoftBody/RBRainTest.cs
+  artifactKey: Guid(5d0594b3abf9bca49b7ce6bb7470794f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BulletUnity/Examples/Scenes/SoftBody/RBRainTest.cs using Guid(5d0594b3abf9bca49b7ce6bb7470794f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8500344c215ea52821a5e68e620bf9c') in 0.001817 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.194214 seconds.
+  path: Assets/BulletUnity/Examples/Scenes/SoftBody/TestTeleportJump.cs
+  artifactKey: Guid(c841360bde4fd2c4da9ae0b07ecbdd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BulletUnity/Examples/Scenes/SoftBody/TestTeleportJump.cs using Guid(c841360bde4fd2c4da9ae0b07ecbdd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '022823219c625bed78c1f2e2ade48dae') in 0.002265 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 20.807737 seconds.
+  path: Assets/BulletUnity/Examples/Scenes/SoftBody/BunnyRainTest.cs
+  artifactKey: Guid(4ad2880b15e45634db2c8e9d47465455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BulletUnity/Examples/Scenes/SoftBody/BunnyRainTest.cs using Guid(4ad2880b15e45634db2c8e9d47465455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d7f899bdd07940580a612f23b51be39') in 0.001581 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 56.145132 seconds.
+  path: Assets/BulletUnity/Examples/SceneMenu/Resources
+  artifactKey: Guid(8e296d174afcf1b4eb3d8be685614ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BulletUnity/Examples/SceneMenu/Resources using Guid(8e296d174afcf1b4eb3d8be685614ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c360533e0b4bca7c4e6e5c592a0a6830') in 0.001242 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.187019 seconds.
+  path: Assets/BulletUnity/Examples/SceneMenu/Resources/ScenesList.asset
+  artifactKey: Guid(e4c4d06d42e4128418f1c36190011f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BulletUnity/Examples/SceneMenu/Resources/ScenesList.asset using Guid(e4c4d06d42e4128418f1c36190011f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6fe17018061d0b69721c91cd0d4d203') in 0.192158 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 7.681434 seconds.
+  path: Assets/BulletUnity/Examples/Scenes/BulletSharpDemos
+  artifactKey: Guid(27eeb2564608b224a8b1b2788d6e31e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BulletUnity/Examples/Scenes/BulletSharpDemos using Guid(27eeb2564608b224a8b1b2788d6e31e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e98a08e9589867d461b35aabc1e20561') in 0.002377 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.702786 seconds.
+  path: Assets/BulletUnity/Examples/Scenes/BulletSharpDemos/ExampleRunner.unity
+  artifactKey: Guid(ea8a7c7597437cc45b8d78941f1751c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BulletUnity/Examples/Scenes/BulletSharpDemos/ExampleRunner.unity using Guid(ea8a7c7597437cc45b8d78941f1751c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d75802dad92d35f060b5b64ecb498ab') in 0.002375 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.887033 seconds.
+  path: Assets/BulletUnity/Examples/Scenes/BulletSharpDemos/BulletSharpDemos
+  artifactKey: Guid(b81e6db6861dc894eaacdd6df19e9030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BulletUnity/Examples/Scenes/BulletSharpDemos/BulletSharpDemos using Guid(b81e6db6861dc894eaacdd6df19e9030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94548e955263bb87e0a9929fbdaa0743') in 0.002949 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.124582 seconds.
+  path: Assets/BulletUnity/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/BspDemo
+  artifactKey: Guid(95daa5666b71b384abdeb223940a2219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BulletUnity/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/BspDemo using Guid(95daa5666b71b384abdeb223940a2219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e3358728daf490855d41aa8623b836') in 0.002368 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.200368 seconds.
+  path: Assets/BulletUnity/Examples/Scenes/SimpleOfflineSimulation
+  artifactKey: Guid(ba7b75593883d17498f1e6d2c27568ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BulletUnity/Examples/Scenes/SimpleOfflineSimulation using Guid(ba7b75593883d17498f1e6d2c27568ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0de9ebdcd0fd6b91e8059510d05d9d') in 0.001255 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.518531 seconds.
+  path: Assets/BulletUnity/Examples/Scenes/SimpleOfflineSimulation/SimpleOfflineSimulation.unity
+  artifactKey: Guid(0640978e3813ea3409086a831b7a64f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BulletUnity/Examples/Scenes/SimpleOfflineSimulation/SimpleOfflineSimulation.unity using Guid(0640978e3813ea3409086a831b7a64f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d930ca183f1f5e93effa533e2c6bbe4') in 0.002430 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.861860 seconds.
+  path: Assets/BulletUnity/Examples/Scenes/Triggers
+  artifactKey: Guid(6b71c99a34d1c5d4894340ca82dd9b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BulletUnity/Examples/Scenes/Triggers using Guid(6b71c99a34d1c5d4894340ca82dd9b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115e996bc61868763cb0035adddc81fd') in 0.001197 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.156732 seconds.
+  path: Assets/BulletUnity/Examples/Scenes/Triggers/TriggerExample.unity
+  artifactKey: Guid(b2c34493787f276458e222f78ee15dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BulletUnity/Examples/Scenes/Triggers/TriggerExample.unity using Guid(b2c34493787f276458e222f78ee15dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '850f0d9f247d29073c51c42f60faf70a') in 0.003512 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003193 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.791 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2792ms)
+		BeginReloadAssembly (322ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (131ms)
+		EndReloadAssembly (2283ms)
+			LoadAssemblies (167ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (652ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (103ms)
+			SetupLoadedEditorAssemblies (1296ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (1137ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3562 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 186 unused Assets / (29.1 KB). Loaded Objects now: 3881.
+Memory consumption went from 138.7 MB to 138.7 MB.
+Total: 8.849994 ms (FindLiveObjects: 0.504721 ms CreateObjectMapping: 0.472858 ms MarkObjects: 7.780120 ms  DeleteObjects: 0.090847 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 31.017523 seconds.
+  path: Assets/BulletUnity/Examples/Scenes/Terrain
+  artifactKey: Guid(51284d3022e92974bba51541c7991c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BulletUnity/Examples/Scenes/Terrain using Guid(51284d3022e92974bba51541c7991c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '031038fd4009d6a4e856f872ca6e87c3') in 0.011534 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004425 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.813 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2816ms)
+		BeginReloadAssembly (278ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (106ms)
+		EndReloadAssembly (2346ms)
+			LoadAssemblies (156ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (608ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (106ms)
+			SetupLoadedEditorAssemblies (1390ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (1227ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3562 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 186 unused Assets / (29.1 KB). Loaded Objects now: 3884.
+Memory consumption went from 138.7 MB to 138.7 MB.
+Total: 7.657235 ms (FindLiveObjects: 0.511633 ms CreateObjectMapping: 0.393867 ms MarkObjects: 6.356573 ms  DeleteObjects: 0.393469 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 51.048754 seconds.
+  path: Assets/BulletUnity/Examples/Scenes/RealtimeSimWithOfflinePrediction
+  artifactKey: Guid(7d3e2ca3b884cbd479d591612e0c5f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BulletUnity/Examples/Scenes/RealtimeSimWithOfflinePrediction using Guid(7d3e2ca3b884cbd479d591612e0c5f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8828d35380672daa9b2ac2126e7b66c6') in 0.020620 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003753 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.631 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2632ms)
+		BeginReloadAssembly (300ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (113ms)
+		EndReloadAssembly (2147ms)
+			LoadAssemblies (158ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (590ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (95ms)
+			SetupLoadedEditorAssemblies (1240ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (1091ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3562 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 186 unused Assets / (29.1 KB). Loaded Objects now: 3887.
+Memory consumption went from 138.7 MB to 138.7 MB.
+Total: 6.851117 ms (FindLiveObjects: 0.449083 ms CreateObjectMapping: 0.264998 ms MarkObjects: 6.065515 ms  DeleteObjects: 0.070144 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 34.155765 seconds.
+  path: Assets/BulletUnity/Examples/Scenes/Racast
+  artifactKey: Guid(7083f8f0ac9d8f041bd0ae6b73420f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BulletUnity/Examples/Scenes/Racast using Guid(7083f8f0ac9d8f041bd0ae6b73420f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23105d596f5ffec80dbb6ea67572deab') in 0.019662 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.590585 seconds.
+  path: Assets/BulletUnity/Examples/Scenes/Racast/Racast.unity
+  artifactKey: Guid(2bae7848578c75045835580b99c0315e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BulletUnity/Examples/Scenes/Racast/Racast.unity using Guid(2bae7848578c75045835580b99c0315e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f5ca981ad9dd2c7b153f7be0ea41920') in 0.001318 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.024073 seconds.
+  path: Assets/BulletUnity/Examples/Scenes/Constraints
+  artifactKey: Guid(02e910b0826df2542b18355d19b55d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BulletUnity/Examples/Scenes/Constraints using Guid(02e910b0826df2542b18355d19b55d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36220dc18b8add18976583d9c6b88caf') in 0.002709 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.700094 seconds.
+  path: Assets/BulletUnity/Examples/Scenes/Constraints/Constraints.unity
+  artifactKey: Guid(9e748efdd52e25c45aeacea9a9471d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BulletUnity/Examples/Scenes/Constraints/Constraints.unity using Guid(9e748efdd52e25c45aeacea9a9471d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb351e1d1326e8066f02f6a8161dba08') in 0.002771 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.364017 seconds.
+  path: Assets/BulletUnity/Examples/Scenes/CollisionCallbacks
+  artifactKey: Guid(57ed5afd6f745e94199b99bc8874d96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BulletUnity/Examples/Scenes/CollisionCallbacks using Guid(57ed5afd6f745e94199b99bc8874d96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46aa6833813b50d664918d97b462654e') in 0.002833 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.985863 seconds.
+  path: Assets/BulletUnity/Examples/Scenes/CollisionCallbacks/CollisionCallbacks.unity
+  artifactKey: Guid(01415cb4be9f7ca4d87771fec245a20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BulletUnity/Examples/Scenes/CollisionCallbacks/CollisionCallbacks.unity using Guid(01415cb4be9f7ca4d87771fec245a20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6573cc32e270f8b6fe6b408cbeb91b42') in 0.002778 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.184690 seconds.
+  path: Assets/BulletUnity/Examples/Scenes/CharacterController
+  artifactKey: Guid(65a64a8308cec334bb99fe445b598629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BulletUnity/Examples/Scenes/CharacterController using Guid(65a64a8308cec334bb99fe445b598629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dec694880a4c6229103c2e2f789a84d1') in 0.003260 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.369397 seconds.
+  path: Assets/BulletUnity/Examples/Scenes/CharacterController/CharacterController.unity
+  artifactKey: Guid(f893f688bc504d544a9051f0675c91df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BulletUnity/Examples/Scenes/CharacterController/CharacterController.unity using Guid(f893f688bc504d544a9051f0675c91df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e001fbccfa01c2f73374548bf597dcbe') in 0.001175 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003492 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 3.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.941 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2942ms)
+		BeginReloadAssembly (217ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (84ms)
+		EndReloadAssembly (2547ms)
+			LoadAssemblies (126ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (736ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (103ms)
+			SetupLoadedEditorAssemblies (1463ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (1307ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3562 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 186 unused Assets / (29.1 KB). Loaded Objects now: 3890.
+Memory consumption went from 138.7 MB to 138.7 MB.
+Total: 8.566747 ms (FindLiveObjects: 0.480351 ms CreateObjectMapping: 0.368213 ms MarkObjects: 7.578552 ms  DeleteObjects: 0.138186 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 35.575734 seconds.
+  path: Assets/BulletUnity/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/DistanceDemo
+  artifactKey: Guid(d6b0d945446a4c7418b0d62e9e4dd539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BulletUnity/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/DistanceDemo using Guid(d6b0d945446a4c7418b0d62e9e4dd539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a78a77e539924b496d46022f38d7cb5') in 0.016543 seconds 
+Number of asset objects unloaded after import = 0
